@@ -1,0 +1,59 @@
+﻿////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft FaceEngine SDK 		                      //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft FaceEngine SDK provides the universal interfaces to detect the face information of face, like face detection, age estimation, gender estimation,face angle detection,face recognition.
+
+Publish date:
+2020-03-22
+
+Expire date:
+2021-03-22
+
+Version:
+2.2.3902020101.1
+
+Supported platform:
+WIN64
+
+Compile Options:
+default
+
+Dependency:
+None
+
+Known issues:
+None.
+
+File List:
+|---doc
+|   |---ARCSOFT_ARC_FACE_JAVA_DEVELOPER'S_GUIDE.pdf
+|   |---apidocs
+|---libs
+|   |--WIN64
+|   |   |---libarcsoft_face.dll                 Library
+|   |   |---libarcsoft_face_engine.dll          Library
+|   |   |---libarcsoft_face_engine_jni.dll      Library
+|   |--arcsoft-sdk-face-2.2.0.1.jar
+|---samplecode
+|   |---FaceEngineTest.java
+|---releasenotes.txt
+
+
+Change Logs:
+2019-07-12
+修复compareFaceFeature接口内存泄漏问题
+2019-06-14
+底层库升级到2.2版本
+增加IR 活体检测
+开放RGB\IR活体阈值设置
+FT 开放算法层FaceId
+提升性能
+
+2019-04-01
+底层库升级到2.1版本
+支持活体功能
+
+2018-12-15
+Initial Version
